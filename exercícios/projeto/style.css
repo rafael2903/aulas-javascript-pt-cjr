@@ -1,0 +1,8 @@
+label {
+    display: inline-block;
+    margin-right: 2rem;
+}
+
+label:has(input[type="checkbox"]:checked) {
+    text-decoration: line-through;
+}
